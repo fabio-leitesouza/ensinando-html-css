@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(55, 53, 131);
+    color: aliceblue;
+}
+
+strong {
+    color: #4C49DA;
+    font-weight: bold;
+}
+
+p {
+    color: red;
+}
+
+.sobre-mim {
+    color: rgb(185, 219, 34);
+}
+
