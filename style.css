@@ -8,23 +8,19 @@ body {
     background-color: rgb(55, 53, 131);
     color: aliceblue;
     box-sizing: border-box;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-strong {
-    color: #4C49DA;
-    font-weight: bold;
-}
-
-.sobre-mim {
-    color: rgb(185, 219, 34);
-    font-size: 22px;
-}
-.principal {
+.apresentacao {
     display: flex;
     flex-direction: row;
+    align-items: center;    
+    margin: 10%;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content:space-around
 }
 .foto-cosplay {
     height: 40vh;
@@ -32,8 +28,23 @@ strong {
     border-radius: 20px;
     padding: 1em 1em 0 0 ;
     background-color: #6A947C;
-
+}
+.apresentacao_conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+}
+.apresentacao_conteudo_titulo {
+    color: rgb(185, 219, 34);
+    font-size: 36px;
 }
 
+.titulo-destaque {
+    color: #4C49DA;
+    font-weight: bold;
+}
+.apresentacao_conteudo_texto {
+    font-size: 24px;
+}
 
 
